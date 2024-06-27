@@ -16,7 +16,7 @@ Your valuable contributions can help make Hackathon Chatbot even better! 💡✨
 
 # Access the chatbot on our college website here - <a href="https://collegewebsite.com/chatbot" style="font-size: 24px;">Hackathon Chatbot</a>
 
-![Hackathon Chatbot Screenshot](https://raw.githubusercontent.com/yourusername/hackathon-chatbot/main/public/HackathonChatbotHome.png)
+![Hackathon Chatbot Screenshot]()
 
 # **Tech Stack**
 
@@ -65,4 +65,62 @@ Your valuable contributions can help make Hackathon Chatbot even better! 💡✨
   </pre>
   <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px; padding: 2px 8px; font-size: 12px; cursor: pointer; border: none; background-color: #007bff; color: white; border-radius: 3px;"></button>
 </div>
-   
+
+
+### To add Global CSS
+
+<div style="position: relative; display: inline-block; border: 1px solid #ddd; border-radius: 4px; padding: 10px; background-color: #f9f9f9;">
+  <pre style="margin: 0;">
+  <code>
+  |-- VCETBot
+       |-- style1.css
+  </code>
+  </pre>
+  <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px; padding: 2px 8px; font-size: 12px; cursor: pointer; border: none; background-color: #007bff; color: white; border-radius: 3px;"></button>
+</div>
+
+
+## Contribution Guide
+
+1. `Fork` and `Clone` the project to your local machine.
+
+2. Follow the steps mentioned in <a href="#project-setup" style="font-size: 24px;">Project Setup</a>
+
+3. Create a new branch and do the required changes, follow the folder structure mentioned <a href="#folder-structure" style="font-size: 24px;">here</a>
+
+4. Add, Commit and Push
+
+<div style="position: relative; display: inline-block; border: 1px solid #ddd; border-radius: 4px; padding: 10px; background-color: #f9f9f9;">
+  <pre style="margin: 0;">
+  <code>
+        git add .
+        git commit -m "Commit message"
+        git push origin <branch-name>
+  </code>
+  </pre>
+  <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px; padding: 2px 8px; font-size: 12px; cursor: pointer; border: none; background-color: #007bff; color: white; border-radius: 3px;"></button>
+</div>
+
+5. Create a Pull Request from your forked repo by pressing the <span style="display: inline-block; background-color: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; margin: 0 2px; font-family: monospace;">`Compare and Pull Request`</span> button.
+
+6. Thats it! You have contributed to the project 🥳
+
+
+## License
+
+Chromatico is licensed under the terms of the MIT license. See the <a href="https://github.com/Nandan29300/Chromatico/blob/main/Chromatico/LICENSE"> LICENSE File </a> for more information.
+
+
+## Contributors
+
+<div align="center">
+  <a href="https://github.com/Nandan29300/Chromatico/graphs/contributors" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/116248556?v=4" alt="Your Name" width="100" height="100" style="border-radius:50%;" />
+  </a>
+  <br />
+  <strong>Nandan P Aghera</strong>
+</div>
+
+
+
+
