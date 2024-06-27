@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+  }
+
+  h1{
+    padding-right: 50px;
+
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f3f7;
+    padding: 0 30px;
+    background-image: url(bg.jpg);
+  }
+  .container{
+    max-width: 1000px;
+    width: 800%;
+    height: 500px;
+    border: 7px solid #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  .image-box{
+    display: flex;
+    height: 100%;
+    width: 300%;
+    justify-content: space-between;
+  }
+  .image-box{
+    animation: imgBox 17s linear infinite;
+  }
+  @keyframes imgBox{
+    0%{
+      margin-left: 0;
+    }
+    100%{
+      margin-left: -300%;
+    }
+  }
+  .image-box:hover{
+    animation-play-state: paused;
+  }
+  .image-box .image{
+    width: calc(100% - 100px);
+    height: 100%;
+  }
+  .image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+.banner {
+    position: absolute;
+   margin-left: 10px;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Adjust as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .Section_top {
+    width: 100%;
+    height: 100vh; /* Adjust the height to fill the viewport */
+    overflow: hidden;
+    position: relative;
+    background-image: url('v1.jpg'); /* Make sure to use correct quotes */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Use cover to fill the entire container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content a {
+    display: inline-block;
+    background: #85c1ee;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #fff; /* Set text color to improve visibility */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+.content a:hover {
+    background: #6b9ed4; /* Change color on hover for better UX */
+}
