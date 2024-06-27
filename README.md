@@ -16,7 +16,9 @@ Your valuable contributions can help make Hackathon Chatbot even better! 💡✨
 
 # Access the chatbot on our college website here - <a href="https://collegewebsite.com/chatbot" style="font-size: 24px;">Hackathon Chatbot</a>
 
-![Hackathon Chatbot Screenshot](C:\Users\nanda\Pictures\Screenshots\VCETBot-1.png)
+![Hackathon Chatbot Screenshot](https://github.com/Nandan29300/VCETBot/blob/main/VCETBot/VCETBot-1.png)
+![Hackathon Chatbot Screenshot](https://github.com/Nandan29300/VCETBot/blob/main/VCETBot/VCETBot-2.png)
+![Hackathon Chatbot Screenshot](https://github.com/Nandan29300/VCETBot/blob/main/VCETBot/VCETBot-3.png)
 
 # **Tech Stack**
 
